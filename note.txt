@@ -43,11 +43,34 @@ Commands :-
     e) git remote add origin "Repo HTTP link"
         (Set our origin repo through the HTTP link)
 
-    f) git branch (to check the branch)
+    f) git log (give history of commit)
+8. Branch Commands
 
-    g) git branch -M main (to rename the branch)
+    a) git branch (to check the branch)
 
+    b) git branch -M main (to rename the branch)
 
+    c) git checkout branch_name (To Switch between the Branch)
+
+    d) git checkout -b  branch_name (To Create a new Branch)
+     
+    e) git branch -d  branch_name (To Delete a Branch)
+
+    Note:- After finalizing the branch on local repo , we must push that to the GitHub by (git push origin branch_name)
+
+9. Merging Command
+
+    a) git diff branch_name (to compare commits , branches , files , etc)
+
+    b) git merge branch_name (to merge 2 branches)
+                or 
+    b) create a PR (Pull Request on GitHub Page)
+        (It let's You tell others about changes you have pushed to a branch in a repository on GitHub)
+
+10. Pull Command
+    git pull origin main
+
+Note:- Push makes transition from local to GitHub and Pull make transition from GitHub to local
 
 
 
