@@ -1,0 +1,35 @@
+Commands :- 
+
+1. git :- give some common git Commands
+2. git config --global user.name "Name"
+3. git config --global user.email "Email-Id"
+4. git config --list :- 
+    give the details of the user.
+
+5. Clone Command.
+    git clone link_of_github_url 
+    (The link_of_github_url can be copied from the GitHub Page )
+
+6. Status Command.
+    git status
+    (Provide the Status for the existing or newly created file in the git repo which has been clone through the link)
+    The status could be untracked(Newly created file) ,  modified (changes in existing GitHub repo file) ,etc
+
+7. Basic Commands.
+
+    a) add
+        git add file_name
+              or
+        git add . (Full_stop(.) is used to add all the file in existing git clone repo)
+        (It staged the file , means file is ready to be commit.)
+    
+    b) commit 
+        git commit -m "MeaningFull and relevant message"
+        It is record of changes
+
+    c) push
+        git push origin main 
+        (upload the local repo content to remote repo through which we have copy the link).
+
+
+     
