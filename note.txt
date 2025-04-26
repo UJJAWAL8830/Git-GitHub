@@ -25,15 +25,30 @@ Commands :-
     
     b) commit 
         git commit -m "MeaningFull and relevant message"
-        It is record of changes
+        (It is record of changes)
+                    or
+        git commit -am "MeaningFull and relevant message"
+        (It adds and commit the files or folder simultaneously)
 
     c) push
         git push origin main 
         (upload the local repo content to remote repo through which we have copy the link).
+                or
+        git push -u origin main 
+        (It sets an Up-string after this command , git push will be work same as git push origin main )
+    
+    d) git init (initialize)
+        (convert local repo (folder) into an git integrated repo)
 
-8. Git init (initialize)
-    git init
-    (convert local repo (folder) into an git integrated repo)
+    e) git remote add origin "Repo HTTP link"
+        (Set our origin repo through the HTTP link)
+
+    f) git branch (to check the branch)
+
+    g) git branch -M main (to rename the branch)
+
+
+
 
 
 
