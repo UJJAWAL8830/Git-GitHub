@@ -31,5 +31,13 @@ Commands :-
         git push origin main 
         (upload the local repo content to remote repo through which we have copy the link).
 
+8. Git init (initialize)
+    git init
+    (convert local repo (folder) into an git integrated repo)
+
+
+
+
+
 
      
